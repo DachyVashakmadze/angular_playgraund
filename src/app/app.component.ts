@@ -17,7 +17,10 @@ export class AppComponent {
 
     if (!isNaN(parsedValue)) {
       this.length = parsedValue;
+    }else{
+      this.length = 0;
     }
+    console.log(parsedValue);
   }
 
   onChangeUseLetters() {
