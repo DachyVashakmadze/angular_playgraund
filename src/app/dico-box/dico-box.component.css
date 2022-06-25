@@ -1,0 +1,11 @@
+#d-box{
+    width: 100px;
+    height: 50px;
+    background: aqua;
+    border-radius: 5px;
+    border: solid 3px black;
+}
+.disco{
+    display: flex;
+    justify-content: center;  
+}
